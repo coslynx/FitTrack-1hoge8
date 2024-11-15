@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Next.js build output
+out/
+.next/
+dist/
+
+# Server-side rendering cache
+.serverless/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+
+# Test files and coverage
+coverage/
+*.spec.ts
+*.spec.tsx
+*.test.ts
+*.test.tsx
+
+# Logs and temporary build files
+logs/
+temp/
+*.log
+
+# Compiled JavaScript files
+*.js
+*.jsx
+
+# IDE-specific files
+*.suo
+*.user
+*.sln
+*.tmp
+*.pid
+*.log
+
+# Database files (if not part of the codebase)
+*.db
+*.sqlite
+
+# Other files to ignore (customize as needed)
+# Examples:
+# *.*, !*.md (Ignore all files except Markdown files)
+# *.zip, *.gz (Ignore compressed files)
+# !*.svg, !*.png (Exclude specific images)
