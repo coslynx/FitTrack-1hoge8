@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Typography */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Global Colors */
+body {
+  background-color: #f5f5f5;
+}
+
+/* Common Styles */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
+
+/* Responsive Design */
+@screen sm {
+  .container {
+    @apply max-w-sm;
+  }
+}
